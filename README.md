@@ -12,16 +12,14 @@
   - Tests controllers on virtual patient cohort
   - Saves results to `data/` directory as `.npy` files
 
-- `plot_errors.py` - Statistical analysis and visualization script:
+- `plot_errors.py` - Visualization script:
   - Creates box plots comparing controller tracking errors
-  - Performs Friedman test for statistical significance
-  - Post-hoc Nemenyi test for pairwise comparisons
   - Generates publication-ready figures
 
 - `states_eval.py` - Additional state trajectory analysis and visualization:
   - Plots and detailed state trajectory comparisons
   - Time-series analysis of glucose and insulin dynamics
-  - Mixed-effects model analysis with statsmodels
+  - Model analysis with statsmodels
 
 #### Model implementations
 - `nmpc.py` - Nonlinear Hovorka glucose-insulin dynamics model:
