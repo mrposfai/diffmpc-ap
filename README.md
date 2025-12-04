@@ -56,10 +56,10 @@
   - `gri_fit/model.pkl` - Pickled model data with patient parameters and initial states
   
 - `data/` - Generated results from benchmark simulations:
-  - `saved_states_nl.npy` - simulation states from Finite diff nmpc with QP mpc insulins
-  - `saved_states_l.npy` - simulation states from QP mpc
-  - `saved_states_nlnl.npy` - simulation states from Finite diff nmpc
-  - `saved_states_jax.npy` - simulation states from Auto diff nmpc
+  - `saved_states_nl_TS.npy` - simulation states from Finite diff nmpc with QP mpc insulins, TS is the sampling time.
+  - `saved_states_l_TS.npy` - simulation states from QP mpc, TS is the sampling time.
+  - `saved_states_nlnl_TS.npy` - simulation states from Finite diff nmpc, TS is the sampling time.
+  - `saved_states_jax_TS.npy` - simulation states from Auto diff nmpc, TS is the sampling time.
   - `failed_sim_states.npy` - states from failed simulations
   - `failed_sim_insulins.npy` - insulins from failed simulations
   - `results_lin.npy` - optimized insulins by QP mpc
